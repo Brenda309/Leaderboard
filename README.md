@@ -1,56 +1,50 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
-> Description the project.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- html
+- css
+- JavaScript
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
 
 
-## Getting Started
+## Clone this repository
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+      $ git clone git@github.com:Brenda309/Leadboard.git
+      $ cd Leaderboard
 
+## Run project
+      $ npm install
+      $ npm run start# this will make webpack watching for your changes in code
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
 
 ### Setup
-
+- Text editor
+- Terminal
 ### Install
+     $ Git(version control): sudo apt install git
+     $ ESLint : npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+     $ Stylelint : npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+     $ Webhint: npm install --save-dev hint@6.x
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+### Open page in browser
+     $ open dist/index.html
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Brenda309)
+- Twitter: [@twitterhandle](https://twitter.com/BrendaWihogora)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/BrendaWihogora/)
 
 ## 🤝 Contributing
 
