@@ -1,6 +1,6 @@
 
 body {
-  background: url('./modules/leaderboard.png')
+  background: url('./modules/leaderboard.png');
 }
 
 h1 {
@@ -8,7 +8,6 @@ h1 {
   padding-left: 50px;
   padding-top: 40px;
   margin-left: 100px;
-
 }
 
 .score-header {
@@ -37,13 +36,12 @@ li {
   border: 2px solid rgb(12, 56, 73);
   list-style: none;
   color: rgb(8, 7, 7);
-   background: rgb(153, 128, 224);
-   padding: 8px;
-   font-size: 20px;
-   margin-left: 100px;
-
-
+  background: rgb(153, 128, 224);
+  padding: 8px;
+  font-size: 20px;
+  margin-left: 100px;
 }
+
 .section {
   display: grid;
   grid-template-columns: auto auto;
