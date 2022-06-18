@@ -1,11 +1,13 @@
 
 body {
-  background-color: bisque;
+  background: url('./modules/leaderboard.png');
 }
 
 h1 {
-  text-align: center;
   font-size: 60px;
+  padding-left: 50px;
+  padding-top: 40px;
+  margin-left: 100px;
 }
 
 .score-header {
@@ -14,39 +16,30 @@ h1 {
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 50px;
+  margin-left: 160px;
 }
 
 #refresh {
   margin: 40px;
   box-shadow: 5px 4px;
   padding: 10px;
+  margin-left: 50px;
+  border-radius: 12px;
+  font-size: 20px;
+  background-color: rgb(64, 10, 134);
+  color: white;
 }
 
 li {
-  border: 1px solid black;
+  border: 2px solid rgb(12, 56, 73);
   list-style: none;
-}
-
-li:nth-child(2) {
-  background: grey;
-}
-
-li:nth-child(4) {
-  background: grey;
-}
-
-li:nth-child(6) {
-  background: grey;
-}
-
-li:nth-child(8) {
-  background: grey;
-}
-
-li:nth-child(10) {
-  background: grey;
+  color: rgb(8, 7, 7);
+  background: rgb(153, 128, 224);
+  padding: 8px;
+  font-size: 20px;
+  margin-left: 100px;
 }
 
 .section {
@@ -58,15 +51,19 @@ li:nth-child(10) {
 input {
   width: 400px;
   height: 40px;
-  border: black 3px solid;
+  border: rgba(72, 22, 151, 0.596) 3px solid;
   font-size: 20px;
 }
 
 h4 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 #submit {
   box-shadow: 5px 4px;
   padding: 10px 30px;
+  border-radius: 12px;
+  font-size: 20px;
+  background-color: rgb(64, 10, 134);
+  color: white;
 }
